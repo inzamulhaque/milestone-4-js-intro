@@ -1,6 +1,10 @@
 function itPrimeNumber(num) {
     let isPrime = true;
 
+    if (num == 1) {
+        return `Your Number is 1`;
+    }
+
     for (let i = 2; i < num; i++) {
         if (num % i == 0) {
             isPrime = false;
@@ -14,4 +18,4 @@ function itPrimeNumber(num) {
     }
 }
 
-console.log(itPrimeNumber(19));
+console.log(itPrimeNumber(1));
