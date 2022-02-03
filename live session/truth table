@@ -1,0 +1,33 @@
+truth table
+
+true = 1
+false = 0
+
+0 && 0 = 0
+1 && 0 = 0
+0 && 1 = 0
+1 && 1 = 1
+
+0 || 0 = 0
+1 || 0 = 1
+0 || 1 = 1
+1 || 1 = 1
+
+truth table using mathematical sign
+
+&& = *
+|| = +
+
+0 * 0 = 0
+1 * 0 = 0
+0 * 1 = 0
+1 * 1 = 1
+
+0 + 0 = 0
+1 + 0 = 1
+0 + 1 = 1
+1 + 1 = 1
+
+akhane dhorte pari && (and gate) mane *(multiply) jekhane akta condion false hole e false hobe
+and
+|| (or gate) mane +(plus) mone korte pari jekhane akta condition true hole e condition ta true hobe
